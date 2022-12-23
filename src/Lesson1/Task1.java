@@ -1,5 +1,6 @@
 package Lesson1;
 
+@SuppressWarnings({"DataFlowIssue", "MismatchedReadAndWriteOfArray"})
 public class Task1 {
     public static void main(String[] args) throws ExceptionRadius {
         String[] sArray = {"first str", null, "third str"};
@@ -31,6 +32,7 @@ public class Task1 {
     }
     public static void printRadius() throws ExceptionRadius {
 //        int i = 0;
+        
         int[] radius = new int[-1];
         for (int item: radius){
             if (item>0) throw new ExceptionRadius("Ошибка радиуса, не может быть отрицательный");
