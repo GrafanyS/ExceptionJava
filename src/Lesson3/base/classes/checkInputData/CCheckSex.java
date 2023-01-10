@@ -1,8 +1,8 @@
-package HomeWork3.base.classes.checkInputData;
+package Lesson3.base.classes.checkInputData;
 
-import HomeWork3.base.abstractClasses.ACheckData;
-import HomeWork3.base.exceptions.CheckSexException;
-import HomeWork3.base.exceptions.IncorrectSexValuesException;
+import Lesson3.base.abstractClasses.ACheckData;
+import Lesson3.base.exceptions.CheckSexException;
+import Lesson3.base.exceptions.IncorrectSexValuesException;
 
 public class CCheckSex extends ACheckData {
     @Override

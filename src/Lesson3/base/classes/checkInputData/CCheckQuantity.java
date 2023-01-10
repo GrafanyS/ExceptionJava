@@ -1,7 +1,7 @@
-package HomeWork3.base.classes.checkInputData;
+package Lesson3.base.classes.checkInputData;
 
-import HomeWork3.base.abstractClasses.ACheckQuantity;
-import HomeWork3.base.exceptions.CheckQuantityException;
+import Lesson3.base.abstractClasses.ACheckQuantity;
+import Lesson3.base.exceptions.CheckQuantityException;
 
 public class CCheckQuantity extends ACheckQuantity {
     @Override

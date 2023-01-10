@@ -1,6 +1,6 @@
-package HomeWork3.base.abstractClasses;
+package Lesson3.base.abstractClasses;
 
-import HomeWork3.base.interfaces.ICheckElement;
+import Lesson3.base.interfaces.ICheckElement;
 
 public abstract class ACheckData implements ICheckElement {
 

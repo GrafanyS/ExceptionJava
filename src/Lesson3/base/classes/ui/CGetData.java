@@ -1,12 +1,12 @@
-package HomeWork3.base.classes.ui;
-
-import HomeWork3.base.abstractClasses.AGetData;
-import HomeWork3.base.exceptions.GetDataException;
+package Lesson3.base.classes.ui;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.SQLOutput;
+
+import Lesson3.base.abstractClasses.AGetData;
+import Lesson3.base.exceptions.GetDataException;
 
 public class CGetData extends AGetData {
     BufferedReader reader;

@@ -1,4 +1,4 @@
-package HomeWork3.base.exceptions;
+package Lesson3.base.exceptions;
 
 public class ParseDataException extends RuntimeException{
     public ParseDataException(String message) {

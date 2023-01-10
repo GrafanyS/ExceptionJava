@@ -1,12 +1,12 @@
-package HomeWork3.base.classes.workWithFile;
-
-import HomeWork3.base.abstractClasses.AFileWriter;
-import HomeWork3.base.exceptions.FileCreateException;
-import HomeWork3.base.exceptions.MyFileCreateException;
-import HomeWork3.base.exceptions.TheSameFileWritingException;
+package Lesson3.base.classes.workWithFile;
 
 import java.io.FileWriter;
 import java.io.IOException;
+
+import Lesson3.base.abstractClasses.AFileWriter;
+import Lesson3.base.exceptions.FileCreateException;
+import Lesson3.base.exceptions.MyFileCreateException;
+import Lesson3.base.exceptions.TheSameFileWritingException;
 
 public class CFileWriter extends AFileWriter {
     private final String folderPath;

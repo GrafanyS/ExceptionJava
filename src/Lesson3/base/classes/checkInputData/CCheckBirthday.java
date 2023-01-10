@@ -1,7 +1,7 @@
-package HomeWork3.base.classes.checkInputData;
+package Lesson3.base.classes.checkInputData;
 
-import HomeWork3.base.abstractClasses.ACheckData;
-import HomeWork3.base.exceptions.BirthdayFormatException;
+import Lesson3.base.abstractClasses.ACheckData;
+import Lesson3.base.exceptions.BirthdayFormatException;
 
 public class CCheckBirthday extends ACheckData {
     @Override

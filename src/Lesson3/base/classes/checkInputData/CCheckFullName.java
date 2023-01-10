@@ -1,8 +1,8 @@
-package HomeWork3.base.classes.checkInputData;
+package Lesson3.base.classes.checkInputData;
 
-import HomeWork3.base.abstractClasses.ACheckFullName;
-import HomeWork3.base.exceptions.FullNameContainsDigitException;
-import HomeWork3.base.exceptions.FullNameEmptyValueException;
+import Lesson3.base.abstractClasses.ACheckFullName;
+import Lesson3.base.exceptions.FullNameContainsDigitException;
+import Lesson3.base.exceptions.FullNameEmptyValueException;
 
 public class CCheckFullName extends ACheckFullName {
 

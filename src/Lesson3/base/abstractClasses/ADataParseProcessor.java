@@ -1,7 +1,7 @@
-package HomeWork3.base.abstractClasses;
+package Lesson3.base.abstractClasses;
 
-import HomeWork3.base.interfaces.IGetInfo;
-import HomeWork3.base.interfaces.IParseData;
+import Lesson3.base.interfaces.IGetInfo;
+import Lesson3.base.interfaces.IParseData;
 
 public abstract class ADataParseProcessor implements IGetInfo, IParseData {
 }

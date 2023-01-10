@@ -1,10 +1,10 @@
-package HomeWork3.base.classes.parseData;
+package Lesson3.base.classes.parseData;
 
-import HomeWork3.base.abstractClasses.ADataParseProcessor;
-import HomeWork3.base.exceptions.FullNameReadFromDataException;
-import HomeWork3.base.exceptions.GetDataArrayException;
-import HomeWork3.base.exceptions.ParseDataException;
-import HomeWork3.base.exceptions.ParseDataToIntegerException;
+import Lesson3.base.abstractClasses.ADataParseProcessor;
+import Lesson3.base.exceptions.FullNameReadFromDataException;
+import Lesson3.base.exceptions.GetDataArrayException;
+import Lesson3.base.exceptions.ParseDataException;
+import Lesson3.base.exceptions.ParseDataToIntegerException;
 
 public class CDataParseProcessor extends ADataParseProcessor {
 

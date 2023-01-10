@@ -1,11 +1,12 @@
-package HomeWork3.base.classes;
+package Lesson3.base.classes;
 
-import HomeWork3.base.abstractClasses.ACheckDataProcessor;
-import HomeWork3.base.abstractClasses.AFileWriter;
-import HomeWork3.base.abstractClasses.APresenter;
-import HomeWork3.base.classes.parseData.CDataParseProcessor;
-import HomeWork3.base.classes.ui.CGetData;
 import java.io.IOException;
+
+import Lesson3.base.abstractClasses.ACheckDataProcessor;
+import Lesson3.base.abstractClasses.AFileWriter;
+import Lesson3.base.abstractClasses.APresenter;
+import Lesson3.base.classes.parseData.CDataParseProcessor;
+import Lesson3.base.classes.ui.CGetData;
 
 public class Presenter extends APresenter {
     private final CGetData getData;

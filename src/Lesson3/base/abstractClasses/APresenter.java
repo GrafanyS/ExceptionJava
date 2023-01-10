@@ -1,6 +1,6 @@
-package HomeWork3.base.abstractClasses;
+package Lesson3.base.abstractClasses;
 
-import HomeWork3.base.interfaces.IRun;
+import Lesson3.base.interfaces.IRun;
 
 public abstract class APresenter implements IRun {
 }

@@ -1,4 +1,4 @@
-package HomeWork3.base.interfaces;
+package Lesson3.base.interfaces;
 
 import java.io.IOException;
 

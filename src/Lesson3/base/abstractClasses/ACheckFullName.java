@@ -1,6 +1,6 @@
-package HomeWork3.base.abstractClasses;
+package Lesson3.base.abstractClasses;
 
-import HomeWork3.base.interfaces.ICheckFullName;
+import Lesson3.base.interfaces.ICheckFullName;
 
 public abstract class ACheckFullName implements ICheckFullName {
 }

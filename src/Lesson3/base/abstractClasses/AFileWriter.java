@@ -1,10 +1,10 @@
-package HomeWork3.base.abstractClasses;
-
-import HomeWork3.base.classes.workWithFile.CFileCreator;
-import HomeWork3.base.classes.workWithFile.CFindTheSameFileName;
-import HomeWork3.base.interfaces.IWriteToFile;
+package Lesson3.base.abstractClasses;
 
 import java.io.FileWriter;
+
+import Lesson3.base.classes.workWithFile.CFileCreator;
+import Lesson3.base.classes.workWithFile.CFindTheSameFileName;
+import Lesson3.base.interfaces.IWriteToFile;
 
 public abstract class AFileWriter implements IWriteToFile {
     protected FileWriter fileWriter;

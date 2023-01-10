@@ -1,8 +1,8 @@
-package HomeWork3.base.classes.workWithFile;
-
-import HomeWork3.base.abstractClasses.AFindTheSameFileName;
+package Lesson3.base.classes.workWithFile;
 
 import java.io.File;
+
+import Lesson3.base.abstractClasses.AFindTheSameFileName;
 
 public class CFindTheSameFileName extends AFindTheSameFileName {
 

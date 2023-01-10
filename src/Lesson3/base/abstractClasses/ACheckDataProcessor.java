@@ -1,9 +1,9 @@
-package HomeWork3.base.abstractClasses;
+package Lesson3.base.abstractClasses;
 
-import HomeWork3.base.interfaces.ICheckBirthday;
-import HomeWork3.base.interfaces.ICheckFullName;
-import HomeWork3.base.interfaces.ICheckQuantity;
-import HomeWork3.base.interfaces.ICheckSex;
+import Lesson3.base.interfaces.ICheckBirthday;
+import Lesson3.base.interfaces.ICheckFullName;
+import Lesson3.base.interfaces.ICheckQuantity;
+import Lesson3.base.interfaces.ICheckSex;
 
 public abstract class ACheckDataProcessor implements ICheckFullName, ICheckQuantity, ICheckBirthday, ICheckSex {
     protected ACheckQuantity checkQuantity;

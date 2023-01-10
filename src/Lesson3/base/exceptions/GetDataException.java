@@ -1,4 +1,4 @@
-package HomeWork3.base.exceptions;
+package Lesson3.base.exceptions;
 
 import java.io.IOException;
 
