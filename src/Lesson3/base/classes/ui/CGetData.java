@@ -3,7 +3,7 @@ package Lesson3.base.classes.ui;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.SQLOutput;
+// import java.sql.SQLOutput;
 
 import Lesson3.base.abstractClasses.AGetData;
 import Lesson3.base.exceptions.GetDataException;
@@ -29,6 +29,7 @@ public class CGetData extends AGetData {
                 Дата_рождения - строка формата dd.mm.yyyy.           
                 Номер_телефона - целое беззнаковое число без форматирования.
                 Пол - символ латиницей f или m.
+                Пример ввода: valetov andrei vasilevich 30.10.1972 293658747 m
                 """;
         System.out.println(text);
         System.out.print("Введите данные: ");

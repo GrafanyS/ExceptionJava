@@ -1,6 +1,6 @@
 package Lesson3.base.interfaces;
 
-import java.io.IOException;
+// import java.io.IOException;
 
 import Lesson3.base.exceptions.FileCreateException;
 
