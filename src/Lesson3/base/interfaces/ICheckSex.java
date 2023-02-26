@@ -1,5 +1,6 @@
 package Lesson3.base.interfaces;
 
+// интерфейс проверки пола
 public interface ICheckSex {
-    public boolean checkSex(String sex);
+    void checkSex(String sex);
 }
