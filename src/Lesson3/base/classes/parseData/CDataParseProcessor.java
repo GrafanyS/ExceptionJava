@@ -6,6 +6,7 @@ import Lesson3.base.exceptions.GetDataArrayException;
 import Lesson3.base.exceptions.ParseDataException;
 import Lesson3.base.exceptions.ParseDataToIntegerException;
 
+// анализа данных
 public class CDataParseProcessor extends ADataParseProcessor {
 
     private String data;
@@ -37,8 +38,8 @@ public class CDataParseProcessor extends ADataParseProcessor {
     }
 
     @Override
-    public long getPhoneNumber() {
-        return this.phoneNumber;
+    public String getPhoneNumber() {
+        return String.valueOf(this.phoneNumber);
     }
 
     @Override
@@ -53,14 +54,12 @@ public class CDataParseProcessor extends ADataParseProcessor {
     @Override
     public String[] getInfoToWrite() {
         String[] infoArray = new String[2];
-        StringBuilder sb = new StringBuilder();
-        sb.append("<").append(this.fullName[0]).append(">").append("<").append(this.fullName[1]).append(">");
-        sb.append("<").append(this.fullName[2]).append(">").append("<").append(this.birthday).append(">");
-        sb.append("<").append(this.phoneNumber).append(">").append("<").append(this.sex).append(">");
+        String sb = "<" + this.fullName[0] + ">" + "<" + this.fullName[1] + ">" +
+                "<" + this.fullName[2] + ">" + "<" + this.birthday + ">" +
+                "<" + this.phoneNumber + ">" + "<" + this.sex + ">";
 
         infoArray[0] = this.fullName[0];
-        infoArray[1] = sb.toString();
-        sb = new StringBuilder();
+        infoArray[1] = sb;
         return infoArray;
     }
 
