@@ -3,9 +3,10 @@ package Lesson3.base.classes.checkInputData;
 import Lesson3.base.abstractClasses.ACheckData;
 import Lesson3.base.exceptions.BirthdayFormatException;
 
+// Проверка День рождения
 public class CCheckBirthday extends ACheckData {
     @Override
-    public boolean checkElement(String data) {
+    public void checkElement(String data) {
         String[] dataArray = data.split("\\.");
         if(dataArray.length!=3 || dataArray[0].length()!=2 || dataArray[1].length()!=2 || dataArray[2].length()!=4)
             throw new BirthdayFormatException();
@@ -16,6 +17,5 @@ public class CCheckBirthday extends ACheckData {
                     throw new BirthdayFormatException();
             }
         }
-        return true;
     }
 }
