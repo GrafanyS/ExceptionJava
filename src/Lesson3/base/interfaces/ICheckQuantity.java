@@ -1,5 +1,6 @@
 package Lesson3.base.interfaces;
 
+// Интерфейс проверки количества
 public interface ICheckQuantity {
-    public boolean checkQuantity(String[] data);
+    void checkQuantity(String[] data);
 }
