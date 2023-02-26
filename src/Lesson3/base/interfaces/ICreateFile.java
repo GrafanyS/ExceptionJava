@@ -4,6 +4,7 @@ package Lesson3.base.interfaces;
 
 import Lesson3.base.exceptions.FileCreateException;
 
+// интерфейс создания файла
 public interface ICreateFile {
-    public boolean createFile(String path) throws FileCreateException;
+    void createFile(String path) throws FileCreateException;
 }
