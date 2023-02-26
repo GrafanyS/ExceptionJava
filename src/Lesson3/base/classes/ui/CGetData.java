@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import Lesson3.base.abstractClasses.AGetData;
 import Lesson3.base.exceptions.GetDataException;
 
+// класс получения данных
 public class CGetData extends AGetData {
     BufferedReader reader;
 
@@ -22,18 +23,18 @@ public class CGetData extends AGetData {
     public String getData() throws IOException {
         String text = """
                 Введите данные в произвольном порядке, разделенные пробелом:
-                Фамилия Имя Отчество датарождения номертелефона пол.
+                Фамилия Имя Отчество дата рождения номер телефона пол.
                                 
                 Форматы данных:
-                Фамилия, имя, отчество - строки.            
-                Дата_рождения - строка формата dd.mm.yyyy.           
+                Фамилия, имя, отчество - строки.
+                Дата_рождения - строка формата dd.mm.yyyy. (01.05.1900)
                 Номер_телефона - целое беззнаковое число без форматирования.
                 Пол - символ латиницей f или m.
-                Пример ввода: valetov andrei vasilevich 30.10.1972 293658747 m
+                Пример ввода: Valetov Andrei Vasilevich 30.10.1972 293658747 m
                 """;
         System.out.println(text);
         System.out.print("Введите данные: ");
-        String data = "";
+        String data;
         try {
             data = this.reader.readLine();
         }catch (IOException e){
