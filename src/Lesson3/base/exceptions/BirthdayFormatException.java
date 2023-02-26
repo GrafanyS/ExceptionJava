@@ -2,6 +2,6 @@ package Lesson3.base.exceptions;
 
 public class BirthdayFormatException extends RuntimeException{
     public BirthdayFormatException() {
-        super("Incorrect birthday's format!!!");
+        super("Неправильный формат дня рождения!!!");
     }
 }
