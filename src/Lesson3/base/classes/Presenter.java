@@ -17,7 +17,7 @@ public class Presenter extends APresenter {
 
     /**
      * Объединяет в работу пользовательский интерфейс, парсер строки, проверку на валидность элементов строки
-     * Пишет в файлы инфо по заданному формату.
+     * Пишет, в файлы инфо по заданному формату.
      * @param getData - пользовательский интерфейс.
      * @param dataParseProcessor - парсер строки.
      * @param dataProcessor - проверка элементов на валидность
@@ -45,7 +45,7 @@ public class Presenter extends APresenter {
         dataProcessor.checkBirthday(dataParseProcessor.getBirthday());
         //Check sex
         dataProcessor.checkSex(dataParseProcessor.getSex());
-        System.out.println("\nAll checks are OK!!!");
+        System.out.println("\nВсе проверки в порядке!!!");
         // Write data to file
         fileWriter.writeToFile(dataParseProcessor.getInfoToWrite());
     }
