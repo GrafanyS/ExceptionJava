@@ -4,19 +4,19 @@ import Lesson3.base.abstractClasses.ACheckFullName;
 import Lesson3.base.exceptions.FullNameContainsDigitException;
 import Lesson3.base.exceptions.FullNameEmptyValueException;
 
+// Полное имя проверка
 public class CCheckFullName extends ACheckFullName {
 
     @Override
-    public boolean checkFullName(String[] fullName) {
+    public void checkFullName(String[] fullName) {
 
-        for (int i = 0; i < fullName.length; i++) {
-            if(fullName[i].length()==0)
+        for (String s : fullName) {
+            if (s.length() == 0)
                 throw new FullNameEmptyValueException();
-            for (int j = 0; j < fullName[i].length(); j++) {
-                if(Character.isDigit(fullName[i].charAt(j)))
+            for (int j = 0; j < s.length(); j++) {
+                if (Character.isDigit(s.charAt(j)))
                     throw new FullNameContainsDigitException();
             }
         }
-        return true;
     }
 }
