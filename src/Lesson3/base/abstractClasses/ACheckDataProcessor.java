@@ -5,6 +5,7 @@ import Lesson3.base.interfaces.ICheckFullName;
 import Lesson3.base.interfaces.ICheckQuantity;
 import Lesson3.base.interfaces.ICheckSex;
 
+// Проверьте процессор обработки данных абстрактный класс
 public abstract class ACheckDataProcessor implements ICheckFullName, ICheckQuantity, ICheckBirthday, ICheckSex {
     protected ACheckQuantity checkQuantity;
     protected ACheckFullName checkFullName;
